@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-phrases{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  padding: 20px;
+  background-color: white;
+}
+.box-phrases h2{
+  display: flex;
+  justify-content: end;
+}
+
+.box-phrases button{
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
+.box-phrases button i{
+  font-size: 40px;
+}
